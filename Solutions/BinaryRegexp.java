@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 public class BinaryRegexp {
 	public static Pattern multipleOf3() {
 		// String regex = "(11)*(1(010||00)*1)*0*";
-		String regex = "(0*(11)*1((00)*0(1)*(00)*0)*(11)*1)+(0)*";
+		String regex = "(0*(11)*1((00)*0(1)*(00)*0)*(11)*1)*(0)*";
 		return Pattern.compile(regex);
 
 //		int state = 0;
